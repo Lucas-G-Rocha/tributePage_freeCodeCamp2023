@@ -1,3 +1,4 @@
+> [https://lucas-g-rocha.github.io/tributePage_freeCodeCamp2023/]
 > 📘 Este projeto faz parte dos exercícios do curso **Responsive Web Design** do FreeCodeCamp (2023).  
 >  
 > Foi desenvolvido usando apenas **HTML5 e CSS3**, em uma fase em que eu ainda estava dando meus primeiros passos no desenvolvimento web.  
