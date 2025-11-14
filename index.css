@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://t.ctcdn.com.br/IVrVgAS1a7pfMf5KV1x_54hNXdM=/5760x3240/smart/i659457.jpeg);
+    background-size: cover;
+}
+main{
+    width: 95vw;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(216, 214, 214, 0.367);
+}
+#title-container{
+    width: 100%;
+    height: auto;
+    margin: 70px -1px 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#title-container > hr, #title-container > h1, #title-container > h3{
+    filter: drop-shadow(20px 20px 4px black);
+}
+#title-container > h1, #title-container > h3{
+    font-family: "Jura", sans-serif;
+}
+#title-container > hr{
+    width: 90%;
+    background-color: black;
+    height: 2px;
+    border: none;
+    margin: 0 auto;
+    
+}
+#title-container > hr:first-of-type{
+    margin-bottom: 20px;
+}
+#title-container > hr:last-of-type{
+    margin-top: 20px;
+    background-color: rgba(2, 2, 2, 0.79);
+}
+#title-container > h1{
+    display: inline-block;
+    font-size: 4rem;
+    color: black;
+    letter-spacing: 5px;
+}
+#title-container > h3{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#img-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 3rem auto;
+    
+}
+#img-div > #image{
+    margin: auto;
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+}
+#img-div > figcaption {
+    color: rgb(0, 0, 0);
+    margin-top: 1em;
+    font-weight: bold;
+}
+#tribute-info{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: circle;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#tribute-info > li{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-family: "Jura";
+}
+#tribute-info > li:first-child{
+    margin-top: 1rem;
+}
